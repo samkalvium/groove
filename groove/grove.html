@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grove</title>
+    <link rel="stylesheet" href="gstyle.css">
+</head>
+
+<body>
+    <div class="intropic">
+        <img style="margin-left: 1250px;"
+            src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/groove-logo%5B1%5D.png" alt="logo">
+    </div>
+    <div class="intro">
+        <img class="bkimg" src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/groove-bg%5B1%5D.png" alt=""
+            width="2720px">
+        <h1>Welcome to Groove!</h1>
+        <div class="text">
+            <p1>Select your favorite groceries, confirm your phone number<br>and get them delivered in 30mins -
+                <b>Straight from the Farm</b>
+            </p1><br>
+            <a href="#tab"><button class="store"><b>What's in the store?</b></button></a>
+        </div>
+    </div>
+
+    <!--TABLE PART-->
+    <div class="table">
+        <h1 class="tabhead">Here's What Is In Store Today</h1>
+        <table id="tab">
+            <thead>
+                <tr>
+                    <th style="width: 1000px;">SELECT</th>
+                    <th>ITEM</th>
+                    <th style="width: 2500px ;">NAME</th>
+                    <th style="width: 3000px;">PRICE</th>
+                    <th style="width: 5000px;">CONTAINS</th>
+                    <th>QAUNTITY</th>
+                </tr>
+            </thead>
+            <tr class="row">
+                <td><input type="checkbox" name="" id="selector" /></td>
+                <td><img src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/apple%5B1%5D.png" alt=""
+                        width="150px">
+                </td>
+                <td>Green Apple</td>
+                <td>INR 22/- Per Kg</td>
+                <td class="cont">520 Calories. 3.0 g Protien,<br>2.0 g Fat, 24.0 g Fiber.</td>
+                <td><input type="number" name="" id="quantity" /></td>
+            </tr>
+            <tr class="row">
+                <td><input type="checkbox" name="" id="selector" /></td>
+                <td><img src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/strawberry%5B1%5D.png" alt=""
+                        width="150px"></td>
+                <td>Strawberries</td>
+                <td>INR 108/- Per Box</td>
+                <td class="cont">424 Calories. 8.88 g Protien,<br> 26.4 g Fiber.</td>
+                <td><input type="number" name="" id="quantity" /></td>
+            </tr>
+            <tr class="row">
+                <td><input type="checkbox" name="" id="selector" /></td>
+                <td><img src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/carrot%5B1%5D.png" alt=""
+                        width="150px">
+                </td>
+                <td>Carrots</td>
+                <td>INR 26/- Per Kg</td>
+                <td class="cont">410 Calories. 9.0 g Protien,<br>2.0 g Fat, 28.0 g Fiber.</td>
+                <td><input type="number" name="" id="quantity" /></td>
+            </tr>
+            <tr class="row">
+                <td><input type="checkbox" name="" id="selector" /></td>
+                <td><img src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/spinach%5B1%5D.png" alt=""
+                        width="150px"></td>
+                <td>Spinach</td>
+                <td>INR 26/- Per Kg</td>
+                <td class="cont">230 Calories. 29.0 g Protien,<br>4.0 g Fat, 22.0 g Fiber.</td>
+                <td><input type="number" name="" id="quantity" /></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="end">
+        <p>One last step tp place your order.<br>Enter your mobile number and your done!</p>
+    </div>
+    <input type="text" id="phonenum" placeholder="Mobile number">
+    <div class="btn">
+        <input type="button" name="" value="Buy Now" id="buy">
+    </div>
+    <script src="grove.js"></script>
+<div class="kal">
+    <p2>Made with ❤️ by Kalvium</p2>
+</div>
+
+
+
+
+</body>
+
+</html>
